@@ -1,28 +1,29 @@
 # AMF-analysis
-Anaconda 3 is required to open the notebooks (https://www.anaconda.com/download)
-In anaconda execute the following lines one by one:
-conda create -n AMF_analysis_env python=3.8 numpy pandas matplotlib seaborn notebook jupyterlab ipykernel scipy scikit-learn scikit-image networkx imageio opencv shapely tifffile zarr dask cython natsort --yes
-conda activate AMF_analysis_env
-pip install Cython nd2reader pygeoops nd2 bioio bioio-czi bioio-bioformats pyimagej jpype1 napari[all] segmentation
-(Python 3.8 is required instead of the current 3.10 due to the segmentation package losing support)
+Anaconda 3 is required to open the notebooks (https://www.anaconda.com/download) <br>
+In anaconda execute the following lines one by one: <br>
+conda create -n AMF_analysis_env python=3.10 numpy pandas matplotlib seaborn notebook jupyterlab ipykernel scipy scikit-learn scikit-image networkx imageio opencv shapely tifffile zarr dask cython natsort --yes <br>
+conda activate AMF_analysis_env <br>
+pip install Cython nd2reader pygeoops nd2 bioio bioio-czi bioio-bioformats pyimagej jpype1 napari[all] <br>
 
-Then to open jupyter notebook: jupyter notebook
+(Python 3.8 is required for the segmentation package used in the processing and Extract Graphs Bulk function. Downgrade to python 3.8, you might have to remove the bioio packages for this). <br>
 
-The notebooks are categorized into processing, FISH analysis and growth analysis. 
-Processing:
-Processing DAPI files.ipynb
-Processing Files Jurr small files.ipynb (if Zeiss brightfield files are already binned)
-Processing Files.ipynb
-rebinning_data.ipynb
+Then to open jupyter notebook: jupyter notebook <br>
 
-FISH analysis:
-Correlating SSU5670 and empty channels.ipynb
-FISH exposure time from metadata.ipynb (In imagej open metadata using ctrl + I and save the metadata into a .txt file)
-Opening and displaying images.ipynb
-Plot max values per image.ipynb
-Ribosome localization.ipynb
+The notebooks are categorized into processing, FISH analysis and growth analysis.  <br>
+Processing: <br>
+Processing DAPI files.ipynb <br>
+Processing Files Jurr small files.ipynb (if Zeiss brightfield files are already binned) <br>
+Processing Files.ipynb <br>
+rebinning_data.ipynb <br>
 
-Growth analysis:
-Extract Graphs Bulk function Jurr.ipynb
-Napari corrected.ipynb
-Growth graphs from CSV data.ipynb
+FISH analysis: <br>
+Correlating SSU5670 and empty channels.ipynb <br>
+FISH exposure time from metadata.ipynb (In imagej open metadata using ctrl + I and save the metadata into a .txt file) <br>
+Opening and displaying images.ipynb <br>
+Plot max values per image.ipynb <br>
+Ribosome localization.ipynb <br>
+
+Growth analysis: <br>
+Extract Graphs Bulk function Jurr.ipynb <br>
+Napari corrected.ipynb <br>
+Growth graphs from CSV data.ipynb <br>
