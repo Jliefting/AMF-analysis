@@ -1,9 +1,9 @@
 # AMF-analysis
-This repository contains the code used for analysis and custom 3D print STL files.
-**3D print**
-Chip image platform V6 magnets 6.2x3.2 16cm.stl: Ibidi µ-Slide I Luer(Cat.No:80161) chip holder with holder for fisherbrand 1ml plastic syringe (Cat.no: 14955462).
-Zeiss platform cut.stl: Platform to place under a ZEISS Axio Imager 2 that holds the chip holder. 6mm x 3mm Magnets are used to prevent movement during imaging. 
-ibidi caps prevent drying out.stl: Caps to slide into a Elbow Luer Connector Male (Cat.No: 10802), to prevent the chip from drying out.
+This repository contains the code used for analysis and custom 3D print STL files. <br>
+**3D print** <br>
+Chip image platform V6 magnets 6.2x3.2 16cm.stl: Ibidi µ-Slide I Luer(Cat.No:80161) chip holder with holder for fisherbrand 1ml plastic syringe (Cat.no: 14955462). <br>
+Zeiss platform cut.stl: Platform to place under a ZEISS Axio Imager 2 that holds the chip holder. 6mm x 3mm Magnets are used to prevent movement during imaging. <br>
+ibidi caps prevent drying out.stl: Caps to slide into a Elbow Luer Connector Male (Cat.No: 10802), to prevent the chip from drying out. <br>
 
 **Code**
 Anaconda 3 is required to open the notebooks (https://www.anaconda.com/download) <br>
